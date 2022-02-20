@@ -14,6 +14,6 @@ MySQL ver: 5.5<br>
 
 - **[Cài đặt composer](https://getcomposer.org/)**
 composer self-update 1.8.5
-- **[Tải database](https://github.com/nguyensangdev/hotrotieudung/blob/main/exploore.sql)**
+- **[Tải database](https://drive.google.com/file/d/1t1i17nYWq0Oncv5-_yHyOP1P2OPlajPH/view?usp=sharing/)**
 
 Link full source nếu bị lỗi: **[Download](https://drive.google.com/file/d/1oSGTFdX9Fw6LMBZLPcRUwHv3nNEl4SB8/view?usp=sharing)**
