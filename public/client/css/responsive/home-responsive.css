@@ -1,0 +1,70 @@
+/* mobile */
+@media only screen and (max-width: 767px) {
+    .page-banner {
+        padding-top: 35vh!important;
+        padding-bottom: 35vh!important;
+    }
+
+    .page-banner .banner-title .title {
+        font-size: 40px!important;
+        -webkit-text-stroke: 5px rgba(255, 255, 255, 0.5)!important;
+        letter-spacing: 5px;
+        width: 230px!important;
+    }
+
+    .tours .owl-theme .owl-dots .owl-dot span {
+        background-color: #888!important;
+        border: 2px solid #fff;
+        box-shadow: 0 0 10px #888;
+    }
+    
+    .tours .owl-theme .owl-dots .active span {
+        background-color: #fd0!important;
+        border: 2px solid #fff;
+        box-shadow: 0 0 10px #fd0;
+    }
+
+    .video .video-box {
+        margin: 50px 0px!important;
+    }
+
+    .video .video-box iframe {
+        height: 250px!important;
+    }
+
+    .banner-sale-content {
+        width: 100%!important;
+    }
+}
+
+/* tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .page-banner {
+        padding-top: 27.5vh!important;
+        padding-bottom: 27.5vh!important;
+    }
+
+    .tours .owl-theme .owl-dots .owl-dot span {
+        background-color: #888!important;
+        border: 2px solid #fff;
+        box-shadow: 0 0 10px #888;
+    }
+    
+    .tours .owl-theme .owl-dots .active span {
+        background-color: #fd0!important;
+        border: 2px solid #fff;
+        box-shadow: 0 0 10px #fd0;
+    }
+    
+    .video .video-box {
+        margin: 50px 0px!important;
+    }
+
+    .video .video-box iframe {
+        height: 300px!important;
+    }
+
+    .banner-sale-content {
+        width: 100%!important;
+    }
+}

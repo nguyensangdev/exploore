@@ -1,0 +1,321 @@
+.hotel-banner {
+    background-image: url(../img/background/hotel-result.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 85vh;
+}
+
+.find-hotel {
+    background-color: #fd0;
+    color: #222;
+}
+
+.find-hotel .find-hotel-title {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.find-hotel .find-hotel-description {
+    font-style: italic;
+    text-align: center;
+}
+
+.find-hotel input, .find-hotel textarea {
+    border-radius: 0;
+    border-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 1);
+    color: #222;
+}
+
+.find-hotel input:focus, .find-hotel textarea:focus {
+    border-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.find-hotel ::-webkit-input-placeholder {
+    color: #888;
+}
+
+.sort-hotel-price {
+    position: relative;
+    display: flex;
+    min-height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sort-title {
+    color: #222;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #fafafa;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.hotel-result .range {
+    width:500px;
+    height:10px;
+
+    border-radius: 4px;
+    background-color: #ddd;
+}
+
+.hotel-result .range__button_1, .hotel-result .range__button_2 {
+    position: absolute;
+    top: 50%;
+    transition: all 0.1s!important;
+    width: 20px;
+    height: 20px;
+
+    cursor: move;
+    transform: translateY(-50%);
+
+    border: none;
+    border-radius: 50%;
+    background-color: #888;
+}
+.hotel-result .range__between {
+    position: absolute;
+    height: 5px;
+    width:0px;
+    margin-top:3px;
+    border: none;
+    background-color: #fd0;
+    transition: all 0.1s!important;
+}
+
+.hotel-result .range_inpt1,
+.hotel-result .range_inpt2 {
+    margin-top:20px;
+    width: 75px;
+    transition: all 0.1s!important;
+    border-radius: 50px!important;
+    background-color: #fd0;
+    border: 1px solid #fd0!important;
+}
+
+.hotel-result .range_inpt1:focus,
+.hotel-result .range_inpt2:focus {
+    border-color: #fd0!important;
+}
+
+.rating-content {
+    color: #fd0;
+}
+
+.card-box {
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.card-box .card-img span {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    font-size: 14px;
+    background-color: #fd0;
+    text-align: center;
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.card-box .card-img h5 {
+    position: absolute;
+    bottom: 0px;
+    left: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fd0;
+    font-weight: bold;
+    transition: all 0.15s;
+}
+
+.card-box .card-img h5:hover {
+    color: #fd0;
+    cursor: pointer;
+}
+
+.card-img {
+    overflow: hidden;
+}
+  
+
+.card-img img {
+    transition: transform .5s ease;
+    border-radius: 0; 
+}
+
+.card-box {
+    transition: all 0.15s;
+}
+
+.card-box:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-box:hover .card-img img {
+    transform: scale(1.2);
+}
+
+.hotel-result .card-box {
+    background-color: #fafafa;
+}
+
+.hotel-result .card-box .card-img span {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    font-size: 14px;
+    background-color: #fd0;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.hotel-result .card-box .card-img h5 {
+    position: absolute;
+    bottom: 35px;
+    left: 15px;
+}
+
+.hotel-result .card-box .card-img ul {
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    color: #fd0;
+}
+
+.hotel-result .card-main-info .price {
+    color: #fd0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.hotel-result .card-main-info .per, .hotel-result .card-description {
+    font-size: 14px;
+    color: #888!important;
+}
+
+.hotel-result .border-icon-seperate {
+    border-left: 0.5px solid #888;
+}
+
+.hotel-result .border-icon-seperate a {
+    color: #888;
+    transition: all 0.15s;
+}
+
+.hotel-result .border-icon-seperate a:hover {
+    color: #000;
+    background-color: #fd0;
+    margin: 5px -5px -5px 5px;
+    cursor: pointer;
+}
+
+.hotel-result .owl-theme .owl-dots .owl-dot span {
+    background-color: #888!important;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px #888;
+}
+
+.hotel-result .owl-theme .owl-dots .active span {
+    background-color: #fd0!important;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px #fd0;
+}
+
+.card-offer-title {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    font-weight: bold;
+    transition: all 0.15s;
+}
+
+.card-offer:hover .card-offer-title {
+    left: 35px;
+    bottom: 17.5px;
+    color: #fd0;
+    border-color: #fd0;
+}
+
+.card-offer img {
+    transition: all 0.15s;
+}
+
+.card-offer:hover img {
+    margin: -15px -15px 15px 15px;
+}
+
+.hotel-offer .owl-theme .owl-dots .owl-dot span {
+    background-color: #888!important;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px #888;
+}
+
+.hotel-offer .owl-theme .owl-dots .active span {
+    background-color: #fd0!important;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px #fd0;
+}
+
+.contact-hotel {
+    background-image: url(../img/background/bg-section-contact.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+.contact-hotel-form {
+    background-color: #fd0;
+    color: #222;
+}
+
+.contact-hotel-form .contact-hotel-form-title {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact-hotel-form .contact-hotel-form-description {
+    font-style: italic;
+    text-align: center;
+}
+
+.contact-hotel-form input, .contact-hotel-form textarea {
+    border-radius: 0;
+    border-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, .5);
+    color: #222;
+}
+
+.contact-hotel-form input:focus, .contact-hotel-form textarea:focus {
+    border-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.contact-hotel-form ::-webkit-input-placeholder {
+    color: #888;
+}

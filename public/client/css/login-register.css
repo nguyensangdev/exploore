@@ -1,0 +1,86 @@
+.login-banner {
+    background-image: url(../img/background/cruises-result.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.login-form {
+    background-color: #fff;
+    color: #222;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 8px;
+}
+
+.login-form .login-form-title {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.login-form .login-form-description {
+    font-style: italic;
+    text-align: center;
+}
+
+.login-form input, .login-form textarea {
+    border-radius: 0;
+    border-color: #fd0;
+    background-color: #fff;
+    color: #222;
+}
+
+.login-form input:focus, .login-form textarea:focus {
+    border-color: #fd0;
+    background-color: #fd0;
+}
+
+.login-form ::-webkit-input-placeholder {
+    color: #888;
+}
+
+.do-not-account a{
+    color: #fd0;
+    font-weight: bold;
+    font-style: italic;
+    transition: all 0.15s;
+}
+
+.do-not-account a:hover {
+    text-decoration: underline;
+}
+
+.custom-file-upload {
+    width: 75px;
+    height: 75px;
+    font-size: 32px;
+    color: #ccc;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity .25s;
+}
+
+.custom-file-upload:hover {
+    opacity: 1!important;
+}
+
+.custom-file-upload, .profile-logo>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.profile-logo {
+    width: 75px;
+    height: 75px;
+    position: relative;
+}

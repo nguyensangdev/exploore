@@ -1,0 +1,67 @@
+@media only screen and (max-width: 767px) {
+    .tour-detail-banner {
+        height: 60vh!important;
+    }
+
+    .breadcrumb-title {
+        font-size: 24px!important;
+        -webkit-text-stroke: 1px #fff;
+    }
+
+    .tour-table .tour-tr .tour-th,
+    .tour-table .tour-tr .tour-td {
+        width: 50%!important;
+    }
+
+    .header-card-timeline {
+        font-weight: bold;
+        color: #222;
+        font-size: 24px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+
+    .tour-overview .owl-theme .owl-dots .owl-dot span {
+        background-color: #888!important;
+        border: 2px solid #fff;
+        box-shadow: 0 0 10px #888;
+    }
+    
+    .tour-overview .owl-theme .owl-dots .active span {
+        background-color: #fd0!important;
+        border: 2px solid #fff;
+        box-shadow: 0 0 10px #fd0;
+    }
+
+    .reply-comment-logo {
+        width: 50px!important;
+        height: 50px!important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .tour-detail-banner {
+        height: 50vh!important;
+    }
+
+    .breadcrumb-title .from-text-tour {
+        font-size: 12px;
+        -webkit-text-stroke: 0px #fff;
+    }
+    
+    .breadcrumb-title .tour-price {
+        color: #fd0;
+        font-size: 40px;
+        -webkit-text-stroke: 3px #fd0;
+    }
+    
+    .breadcrumb-title sup {
+        font-size: 24px;
+        -webkit-text-stroke: 1px #fd0;
+    }
+
+    .tour-table .tour-tr .tour-th,
+    .tour-table .tour-tr .tour-td {
+        width: 50%!important;
+    }
+}

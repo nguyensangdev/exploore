@@ -1,0 +1,126 @@
+.mobile-header-top {
+    z-index: 999!important;
+}
+
+.mobile-header-top .header-top-logo {
+    max-width: 150px;
+}
+
+.backdrop-mobile-side-menu-active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 1100!important;
+}
+
+.mobile-side-menu {
+    transition: all 0.15s;
+}
+
+.mobile-search-input {
+    border: 1px solid #fff!important;
+}
+
+.mobile-search-input:focus {
+    border: 1px solid #fff!important;
+}
+
+.avatar-mobile-side-menu {
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+
+.username-mobile-side-menu {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.number-notification {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.mobile-side-menu .dropdown-menu>.dropdown-item {
+    color: #555e69!important;
+}
+
+.first-line-btn, .second-line-btn, .third-line-btn {
+    width: 30px;
+    height: 5px;
+    border-radius: 2.5px;
+    background-color: #fff;
+    margin: 2px 0;
+    transition: all 0.15s;
+}
+
+.active .first-line-btn {
+    width: 20px;
+    transform: rotate(-40deg);
+}
+
+.active .third-line-btn {
+    width: 20px;
+    transform: rotate(40deg);
+}
+
+.mobile-side-menu {
+    position: fixed;
+    top: 0;
+    left: -75%;
+    height: 100vh;
+    z-index: 9999!important;
+}
+
+.mobile-side-menu .list-group-item {
+    border-radius: 0;
+    background-color: #fd0;
+}
+
+.mobile-side-menu .search-item {
+    border-radius: 0;
+    background-color: #222;
+}
+
+.mobile-side-menu .search-item input {
+    border-radius: 0;
+    border: none;
+}
+
+.mobile-side-menu .search-item input:focus {
+    border: 1px solid #222;
+}
+
+.mobile-side-menu .search-item button {
+    border-radius: 0;
+    border: none;
+    background-color: #fff;
+}
+
+.mobile-side-menu .list-group-item a {
+    color: #222;
+    font-weight: bold;  
+}
+
+.mobile-side-menu .group-btn-sign a{
+    color: #fff!important;
+}
+
+@media only screen and (max-width: 767px) {
+    .breadcrumb-title {
+        font-size: 50px!important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .breadcrumb-title {
+        font-size: 65px!important;
+    }
+}

@@ -1,0 +1,137 @@
+.about-banner {
+    background-image: url(../img/background/about-us.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 85vh;
+}
+
+.value {
+    background-image: url(../img/background/bg-section-videos.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.value .title-section h1, .value .sub-title-section i {
+    color: #fff;
+}
+
+.value-icon {
+    font-size: 40px;
+    color: #fd0;
+}
+
+.value-title {
+    font-size: 16px;
+    color: #fff;
+}
+
+.value-description {
+    color: #cdd1d6;
+    font-size: 14px;
+}
+
+.open-position .list-group li{
+    background-color: #fafafa;
+    border: none;
+    border-radius: 0;
+    transition: all 0.1s;
+    text-transform: capitalize;
+    transition: all 0.15s;
+}
+
+.open-position .list-group li:hover {
+    background-color: #fff;
+    color: #fd0;
+    cursor: pointer;
+}
+
+.open-info-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    color: #222;
+}
+
+.open-info-box i {
+    color: #fd0;
+}
+
+.open-social-box a {
+    color: #222!important;
+}
+
+.sub-title {
+    font-size: 18px;
+    font-weight: 600;    
+}
+
+.open-social {
+    background-color: #fafafa;
+    text-align: center;
+    transition: all 0.15s;
+}
+
+.open-social:hover {
+    background-color: #fd0;
+    color: #fff;
+    margin: -10px -10px 10px 10px;
+}
+
+.open-social-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.open-info-list li{
+    list-style-type: circle!important;
+}
+
+.contact-about {
+    background-image: url(../img/background/bg-section-contact.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+.contact-about-form {
+    background-color: #fd0;
+    color: #222;
+}
+
+.contact-about-form .contact-about-form-title {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact-about-form .contact-about-form-description {
+    font-style: italic;
+    text-align: center;
+}
+
+.contact-about-form input, .contact-about-form textarea {
+    border-radius: 0;
+    border-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, .5);
+    color: #222;
+}
+
+.contact-about-form input:focus, .contact-about-form textarea:focus {
+    border-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.contact-about-form ::-webkit-input-placeholder {
+    color: #888;
+}

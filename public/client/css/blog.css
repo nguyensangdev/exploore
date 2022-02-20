@@ -1,0 +1,75 @@
+.blog-banner {
+    background-image: url(../img/background/blog.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 85vh;
+}
+
+.blog-card:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.date-time {
+    background-color: #fafafa;
+}
+
+.date-up {
+    font-size: 46px;
+    line-height: 35px;
+}
+
+.month-up {
+    font-size: 23px;
+    line-height: 25px;
+}
+
+.year-up {
+    font-size: 18px;
+    line-height: 15px;
+}
+
+.contact-blog {
+    background-image: url(../img/background/bg-section-contact.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+.contact-blog-form {
+    background-color: #fd0;
+    color: #222;
+}
+
+.contact-blog-form .contact-blog-form-title {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact-blog-form .contact-blog-form-description {
+    font-style: italic;
+    text-align: center;
+}
+
+.contact-blog-form input, .contact-blog-form textarea {
+    border-radius: 0;
+    border-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, .5);
+    color: #222;
+}
+
+.contact-blog-form input:focus, .contact-blog-form textarea:focus {
+    border-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.contact-blog-form ::-webkit-input-placeholder {
+    color: #888;
+}

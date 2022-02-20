@@ -1,0 +1,42 @@
+.payment-box {
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+}
+
+.payment-box input, .payment-box textarea {
+    border: 1px solid rgba(0, 0, 0, .1)!important;
+    border-radius: 0!important;
+}
+.payment-box input:focus, .payment-box textarea:focus{
+    border: 1px solid #fd0 !important;
+}
+.accordion .card .card-header {
+    background: #fafafa;
+}
+
+.accordion .card button {
+    background-color: rgba(0, 0, 0, 0)!important;
+}
+
+.payment-img img{
+    width: 100%;
+}
+
+.payment-name {
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.tour-days li{
+    list-style-type: circle!important;
+}
+
+.total-bill {
+    font-size: 28px;
+}
+
+.payment-product {
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+}

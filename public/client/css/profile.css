@@ -1,0 +1,77 @@
+.custom-file-inputs {
+    color: transparent!important;
+}
+.custom-file-inputs::-webkit-file-upload-button {
+    visibility: hidden;
+}
+.custom-file-inputs::before {
+    content: 'Change image'!important;
+    color: black!important;
+    display: block!important;
+    background: #fd0;
+    border: 1px solid #fd0;
+    border-radius: 3px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 400;
+    font-size: 10pt;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 100px;
+    margin-top: 20px;
+}
+.custom-file-inputs:hover::before {
+    border-color: #fd0;
+}
+.custom-file-inputs:active {
+    outline: 0;
+}
+.custom-file-inputs:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+.profile-form input, select{
+    border-radius: 0!important;
+    border-color: #fd0!important;
+    background-color: #fff!important;
+    color: #222!important;
+}
+
+.profile-form input:focus{
+    border-color: #fd0!important;
+    background-color: #fd0;
+}
+.profile-form input[type='file']:focus{
+    border-color: #fff;
+    background-color: #fff;
+    outline: none!important;
+}
+.custom-select select:focus{
+    border-color: #fd0;
+    background-color: #fd0;
+}
+.custom-file-input select:focus{
+    border-color: #fd0;
+    background-color: #fd0;
+}
+.custom-file-label{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    color: #495057;
+    border-color:#fd0!important;
+    outline: none!important;
+    border-radius: 0!important;
+}
+.custom-file-inputs:focus{
+    border-color: #fd0!important;
+    outline: red!important;
+}

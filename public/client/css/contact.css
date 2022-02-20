@@ -1,0 +1,58 @@
+.contact-thumbnail {
+    width: 100%;
+}
+
+.contact-thumbnail img {
+    width: 100%;
+}
+
+.title-contact {
+    font-size: 28px;
+}
+
+.contact-info-box {
+    margin-left: 100px;
+    margin-right: -100px;
+}
+
+@media only screen and (max-width: 767px) {
+    .contact-info-box {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .notification{
+        margin-top: 50px;
+        width: 90% !important;
+    }
+}
+
+
+
+
+.notification{
+    background: #fff;
+    width: 60%;
+    padding: 20px 0 100px 0;
+    margin: auto;
+    height: auto;
+}
+
+.notification .box-content{
+    width: 70%;
+    margin: auto;
+}
+.notification .box-content h2,p{
+    font-weight: 600;
+    text-align: center;
+    color: #1b2653;
+}
+.notification .box-content button{
+    width: 50%;
+    display: block;
+    margin:20px auto;
+}
+.notification .box-content .alert-sign img{
+    padding: 50px 0;
+    width: 100%;
+    margin: auto;
+}
